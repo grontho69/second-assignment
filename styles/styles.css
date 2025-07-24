@@ -31,7 +31,7 @@ header nav {
 .logo{
   height: 82px;
   width: 135px;
-  background-image: url(../images/logo.png);
+
 }
 .NAV {
   display: flex;
@@ -102,6 +102,50 @@ text-align: center;
     height: 50px;
     color: #fff;
     border: none;
+}
+.flower-lover{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 210px;
+  position: relative;
+
+}
+.flower-lover .lover-left{
+  width: 540px;
+  height: 597px; 
+}
+.flower-lover .lover-right{
+ width: 540px;
+ height: 521px;
+ 
+}
+.flower-lover .lover-right h2{
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top:38px;
+}
+.flower-lover .lover-right ul{
+  font-size: 22px;
+  color: rgba(0, 0, 0, 0.5);
+ list-style-position: inside;
+ 
+}
+.flower-lover .lover-right li{
+padding-left: 15px;
+ font-size: 22px;
+ margin-bottom: 20px;
+}
+.flower-lover .lover-mid img{
+  width: 286px;
+  height: 286px;
+}
+.flower-lover .lover-mid {
+  position: absolute;
+  top: -20%;
+  right: 45%;
+  box-shadow:2px solid #8987A1;
 }
 
 
